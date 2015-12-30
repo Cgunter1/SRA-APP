@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943D887B1C34881A00FC8397 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D887A1C34881A00FC8397 /* AppDelegate.swift */; };
+		943D887D1C34881A00FC8397 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D887C1C34881A00FC8397 /* ViewController.swift */; };
+		943D88801C34881A00FC8397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943D887E1C34881A00FC8397 /* Main.storyboard */; };
+		943D88821C34881A00FC8397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943D88811C34881A00FC8397 /* Assets.xcassets */; };
+		943D88851C34881A00FC8397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943D88831C34881A00FC8397 /* LaunchScreen.storyboard */; };
+		943D88901C34881A00FC8397 /* SRA_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D888F1C34881A00FC8397 /* SRA_APPTests.swift */; };
+		943D889B1C34881A00FC8397 /* SRA_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D889A1C34881A00FC8397 /* SRA_APPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		943D888C1C34881A00FC8397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943D886F1C34881A00FC8397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943D88761C34881A00FC8397;
+			remoteInfo = "SRA APP";
+		};
+		943D88971C34881A00FC8397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943D886F1C34881A00FC8397 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 943D88761C34881A00FC8397;
+			remoteInfo = "SRA APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		943D88771C34881A00FC8397 /* SRA APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SRA APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943D887A1C34881A00FC8397 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		943D887C1C34881A00FC8397 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		943D887F1C34881A00FC8397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		943D88811C34881A00FC8397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		943D88841C34881A00FC8397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		943D88861C34881A00FC8397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943D888B1C34881A00FC8397 /* SRA APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SRA APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943D888F1C34881A00FC8397 /* SRA_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRA_APPTests.swift; sourceTree = "<group>"; };
+		943D88911C34881A00FC8397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943D88961C34881A00FC8397 /* SRA APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SRA APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		943D889A1C34881A00FC8397 /* SRA_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRA_APPUITests.swift; sourceTree = "<group>"; };
+		943D889C1C34881A00FC8397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943D88741C34881A00FC8397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D88881C34881A00FC8397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D88931C34881A00FC8397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943D886E1C34881A00FC8397 = {
+			isa = PBXGroup;
+			children = (
+				943D88791C34881A00FC8397 /* SRA APP */,
+				943D888E1C34881A00FC8397 /* SRA APPTests */,
+				943D88991C34881A00FC8397 /* SRA APPUITests */,
+				943D88781C34881A00FC8397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		943D88781C34881A00FC8397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943D88771C34881A00FC8397 /* SRA APP.app */,
+				943D888B1C34881A00FC8397 /* SRA APPTests.xctest */,
+				943D88961C34881A00FC8397 /* SRA APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943D88791C34881A00FC8397 /* SRA APP */ = {
+			isa = PBXGroup;
+			children = (
+				943D887A1C34881A00FC8397 /* AppDelegate.swift */,
+				943D887C1C34881A00FC8397 /* ViewController.swift */,
+				943D887E1C34881A00FC8397 /* Main.storyboard */,
+				943D88811C34881A00FC8397 /* Assets.xcassets */,
+				943D88831C34881A00FC8397 /* LaunchScreen.storyboard */,
+				943D88861C34881A00FC8397 /* Info.plist */,
+			);
+			path = "SRA APP";
+			sourceTree = "<group>";
+		};
+		943D888E1C34881A00FC8397 /* SRA APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				943D888F1C34881A00FC8397 /* SRA_APPTests.swift */,
+				943D88911C34881A00FC8397 /* Info.plist */,
+			);
+			path = "SRA APPTests";
+			sourceTree = "<group>";
+		};
+		943D88991C34881A00FC8397 /* SRA APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				943D889A1C34881A00FC8397 /* SRA_APPUITests.swift */,
+				943D889C1C34881A00FC8397 /* Info.plist */,
+			);
+			path = "SRA APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		943D88761C34881A00FC8397 /* SRA APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943D889F1C34881A00FC8397 /* Build configuration list for PBXNativeTarget "SRA APP" */;
+			buildPhases = (
+				943D88731C34881A00FC8397 /* Sources */,
+				943D88741C34881A00FC8397 /* Frameworks */,
+				943D88751C34881A00FC8397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SRA APP";
+			productName = "SRA APP";
+			productReference = 943D88771C34881A00FC8397 /* SRA APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		943D888A1C34881A00FC8397 /* SRA APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943D88A21C34881A00FC8397 /* Build configuration list for PBXNativeTarget "SRA APPTests" */;
+			buildPhases = (
+				943D88871C34881A00FC8397 /* Sources */,
+				943D88881C34881A00FC8397 /* Frameworks */,
+				943D88891C34881A00FC8397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943D888D1C34881A00FC8397 /* PBXTargetDependency */,
+			);
+			name = "SRA APPTests";
+			productName = "SRA APPTests";
+			productReference = 943D888B1C34881A00FC8397 /* SRA APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		943D88951C34881A00FC8397 /* SRA APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943D88A51C34881A00FC8397 /* Build configuration list for PBXNativeTarget "SRA APPUITests" */;
+			buildPhases = (
+				943D88921C34881A00FC8397 /* Sources */,
+				943D88931C34881A00FC8397 /* Frameworks */,
+				943D88941C34881A00FC8397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943D88981C34881A00FC8397 /* PBXTargetDependency */,
+			);
+			name = "SRA APPUITests";
+			productName = "SRA APPUITests";
+			productReference = 943D88961C34881A00FC8397 /* SRA APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943D886F1C34881A00FC8397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Christopher Gunter";
+				TargetAttributes = {
+					943D88761C34881A00FC8397 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					943D888A1C34881A00FC8397 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 943D88761C34881A00FC8397;
+					};
+					943D88951C34881A00FC8397 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 943D88761C34881A00FC8397;
+					};
+				};
+			};
+			buildConfigurationList = 943D88721C34881A00FC8397 /* Build configuration list for PBXProject "SRA APP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 943D886E1C34881A00FC8397;
+			productRefGroup = 943D88781C34881A00FC8397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943D88761C34881A00FC8397 /* SRA APP */,
+				943D888A1C34881A00FC8397 /* SRA APPTests */,
+				943D88951C34881A00FC8397 /* SRA APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943D88751C34881A00FC8397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943D88851C34881A00FC8397 /* LaunchScreen.storyboard in Resources */,
+				943D88821C34881A00FC8397 /* Assets.xcassets in Resources */,
+				943D88801C34881A00FC8397 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D88891C34881A00FC8397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D88941C34881A00FC8397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943D88731C34881A00FC8397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943D887D1C34881A00FC8397 /* ViewController.swift in Sources */,
+				943D887B1C34881A00FC8397 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D88871C34881A00FC8397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943D88901C34881A00FC8397 /* SRA_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943D88921C34881A00FC8397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943D889B1C34881A00FC8397 /* SRA_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		943D888D1C34881A00FC8397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943D88761C34881A00FC8397 /* SRA APP */;
+			targetProxy = 943D888C1C34881A00FC8397 /* PBXContainerItemProxy */;
+		};
+		943D88981C34881A00FC8397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 943D88761C34881A00FC8397 /* SRA APP */;
+			targetProxy = 943D88971C34881A00FC8397 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		943D887E1C34881A00FC8397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943D887F1C34881A00FC8397 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		943D88831C34881A00FC8397 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943D88841C34881A00FC8397 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		943D889D1C34881A00FC8397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		943D889E1C34881A00FC8397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		943D88A01C34881A00FC8397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SRA APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SantaRosaAcademy.SRA-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		943D88A11C34881A00FC8397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SRA APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SantaRosaAcademy.SRA-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		943D88A31C34881A00FC8397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SRA APPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SantaRosaAcademy.SRA-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRA APP.app/SRA APP";
+			};
+			name = Debug;
+		};
+		943D88A41C34881A00FC8397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SRA APPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SantaRosaAcademy.SRA-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRA APP.app/SRA APP";
+			};
+			name = Release;
+		};
+		943D88A61C34881A00FC8397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SRA APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SantaRosaAcademy.SRA-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SRA APP";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		943D88A71C34881A00FC8397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SRA APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SantaRosaAcademy.SRA-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SRA APP";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943D88721C34881A00FC8397 /* Build configuration list for PBXProject "SRA APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943D889D1C34881A00FC8397 /* Debug */,
+				943D889E1C34881A00FC8397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943D889F1C34881A00FC8397 /* Build configuration list for PBXNativeTarget "SRA APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943D88A01C34881A00FC8397 /* Debug */,
+				943D88A11C34881A00FC8397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		943D88A21C34881A00FC8397 /* Build configuration list for PBXNativeTarget "SRA APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943D88A31C34881A00FC8397 /* Debug */,
+				943D88A41C34881A00FC8397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		943D88A51C34881A00FC8397 /* Build configuration list for PBXNativeTarget "SRA APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943D88A61C34881A00FC8397 /* Debug */,
+				943D88A71C34881A00FC8397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943D886F1C34881A00FC8397 /* Project object */;
+}
